@@ -1,0 +1,58 @@
+Mazo:
+1. Una, Cada Carta de líder tiene una habilidad específica.
+2. Mínimo 25 cartas.
+3. Cada carta tiene una facción. Todas las cartas del deck
+   deben coincidir con la facción del lider o ser neutrales.
+4. Dos tipos de Cartas de Unidad: plata y oro (héroes). Las cartas
+   de plata tienen límite de 3 copias, las de oro una copia.
+5. Cartas de clima, aumentos, despeje y señuelo.
+
+Inicio del juego:
+1. Cada jugador roba 10 cartas de su deck, se pueden escoger hasta dos
+   cartas para intercambiar (si hay más de 10 cartas van al cementario).
+2. El jugador que gana la ronda comienza la siguiente.
+3. Al inicio de la segunda y tercera ronda, cada jugador roba 2 cartas.
+
+Tablero:
+1. Tres filas, una para cuerpo a cuerpo (M), otra para ataque
+   a distancia (R) y otra para cartas asedio (S).
+2. Cada fila tiene un espacio para una carta de aumento (ataque).
+3. Hay 3 espacios para cartas clima, afectan filas para cada jugador (ataque).
+4. Espacio para cementerio.
+5. Espacio para Deck.
+6. Espacio para carta Lider.
+
+Carta de Unidad:
+1. Cada carta tiene 3 tipos de ataque.
+2. Tienen indicador de poder.
+3. Las cartas doradas no son afectadas por ningún efecto de carta especial.
+4. Las unidades pueden tener efectos que se activan al colocarla:
+   - Poner un aumento en una fila propia.
+   - Poner un clima.
+   - Eliminar la carta con más poder (propia o del rival).
+   - Eliminar la carta con menos poder del rival.
+   - Robar una carta.
+   - Multiplica por n su ataque, siendo n la cantidad de cartas iguales en el campo.
+   - Limpia la fila del campo (propia o del rival) con menos unidades.
+   - Calcula el promedio de poder entre todas las cartas (propio o del rival).
+     Luego iguala el poder a todas las cartas del campo, a ese promedio.
+
+Cartas especiales:
+1. Clima: Afectan una o varias filas simultáneamente para ambos jugadores (ej: rango).
+   Penalizan el ataque de las unidades.
+2. Aumentos: Afectan una fila del jugador. Dan bonificación de ataque.
+3. Despeje: Despeja el clima, eliminando cartas de tipo clima.
+4. Señuelo: Permite colocar una carta con poder 0 en el lugar de una carta
+   de campo para regresar esta a la mano.
+
+El juego:
+1. Un turno consiste en  jugar una carta, utilizar una habilidad de líder o pasar.
+2. Al pasar el segundo pase, la ronda termina, todas las cartas son enviadas al
+   cementerio y el jugador con mayor fuerza en el tablero gana.
+3. Dos rondas ganadas marcan la victoria.
+4. Si la ronda termine en empate, cada jugador obtiene un punto de ronda.
+
+Objetivo:
+1. Tablero de juego.
+2. Mazo y cartas.
+3. Documentación.
